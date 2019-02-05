@@ -1,0 +1,109 @@
+
+.navTop {
+  width: 100%;
+  background: #f0f0f0;
+  top: 0;
+  z-index: 2;
+  position:fixed;
+}
+
+.navTop ul {
+  overflow: hidden;
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+}
+
+.navTop ul li {
+  list-style: none;
+  float: left;
+  text-align: center;
+  width: 16.6667%; /* fallback for non-calc() browsers */
+  width: calc(100% / 1);
+  box-sizing: border-box;
+}
+
+.navTop ul li:first-child {
+  border-left: none;
+}
+
+.navTop ul li a {
+  display: block;
+  text-decoration: none;
+  color: #616161;
+}
+
+.navTop ul li a img{
+    width: 20%;
+    height: 20%;
+}
+
+
+
+@media screen and (min-width: 400px) {
+
+  .navTop1 ul {
+    visibility: visible;
+  }
+
+}
+
+/* ***** */
+
+.navBottom {
+  width: 100%;
+  background: #f0f0f0;
+  bottom: 0;
+  z-index: 2;
+  position:fixed;
+  visibility: visible;
+}
+
+.navBottom ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.navBottom ul li {
+  list-style: none;
+  float: left;
+  text-align: center;
+  width: 16.6667%; /* fallback for non-calc() browsers */
+  width: calc(100% / 3);
+  box-sizing: border-box;
+}
+
+.navBottom ul li:first-child {
+  border-left: none;
+}
+
+.navBottom ul li a {
+  display: block;
+  text-decoration: none;
+  color: #616161;
+}
+
+.navBottom ul li a img{
+    width: 25%;
+    height: 25%;
+}
+
+@media screen and (min-width: 400px) {
+
+  .navBottom1 {
+    visibility: hidden;
+  }
+
+}
+
+
+.imgUsuarioMenu{
+    border-radius: 50%;
+}
+
+
+.imgUsuarioComentario{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
